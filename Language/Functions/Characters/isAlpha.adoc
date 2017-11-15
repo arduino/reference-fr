@@ -4,8 +4,7 @@ categories: [ "Functions" ]
 subCategories: [ "Characters" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 
@@ -26,7 +25,7 @@ Analyse if a char is alpha (that is a letter). Returns true if thisChar contains
 === Syntax
 [source,arduino]
 ----
-`isAlpha(thisChar)`
+isAlpha(thisChar)
 ----
 
 [float]
@@ -53,11 +52,11 @@ Analyse if a char is alpha (that is a letter). Returns true if thisChar contains
 ----
 if (isAlpha(this))      // tests if this is a letter
 {
-	Serial.println("The character is alphanumeric");
+	Serial.println("The character is a letter");
 }
 else
 {
-	Serial.println("The character is not alphanumeric");
+	Serial.println("The character is not a letter");
 }
 
 ----

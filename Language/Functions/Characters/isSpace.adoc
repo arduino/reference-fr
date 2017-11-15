@@ -4,8 +4,7 @@ categories: [ "Functions" ]
 subCategories: [ "Characters" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 
@@ -18,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is the space character. Returns true if thisChar contains a letter. 
+Analyse if a char is the space character. Returns true if thisChar contains the space character. 
 [%hardbreaks]
 
 
@@ -26,7 +25,7 @@ Analyse if a char is the space character. Returns true if thisChar contains a le
 === Syntax
 [source,arduino]
 ----
-`isAlpha(thisChar)`
+`isSpace(thisChar)`
 ----
 
 [float]

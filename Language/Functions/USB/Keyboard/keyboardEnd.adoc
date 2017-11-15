@@ -1,8 +1,7 @@
 ---
 title: Keyboard.end()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 
@@ -15,7 +14,7 @@ title: Keyboard.end()
 
 [float]
 === Description
-Stops the keyboard emulation to a connected computer. To start keyboard emulation, use link:../keyboardBegin[Keyboard.begin()].
+Stops the keyboard emulation to a connected computer. To start keyboard emulation, use link:../keyboardbegin[Keyboard.begin()].
 [%hardbreaks]
 
 
@@ -49,6 +48,8 @@ Nothing
 
 [source,arduino]
 ----
+#include <Keyboard.h>
+
 void setup() {
   //start keyboard communication
   Keyboard.begin();

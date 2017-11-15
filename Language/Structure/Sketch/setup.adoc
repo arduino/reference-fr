@@ -1,11 +1,10 @@
 ---
 title: setup()
 categories: [ "Functions" ]
-subCategories: [ "Main" ]
+subCategories: [ "Sketch" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

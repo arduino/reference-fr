@@ -4,8 +4,7 @@ categories: [ "Functions" ]
 subCategories: [ "Characters" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 
@@ -26,7 +25,7 @@ Analyse if a char is a digit (that is a number). Returns true if thisChar is a n
 === Syntax
 [source,arduino]
 ----
-`isDigit(thisChar)`
+isDigit(thisChar)
 ----
 
 [float]
@@ -51,7 +50,7 @@ Analyse if a char is a digit (that is a number). Returns true if thisChar is a n
 
 [source,arduino]
 ----
-if (isDigit(this))      // tests if this is a letter
+if (isDigit(this))      // tests if this is a digit
 {
 	Serial.println("The character is a number");
 }
