@@ -1,8 +1,7 @@
 ---
 title: Serial.write()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 
@@ -40,7 +39,7 @@ _Arduino Mega also supports:_
 
 [float]
 === Returns
-`byte`
+`size_t`
 
 `write()` will return the number of bytes written, though reading that number is optional
 

@@ -4,8 +4,7 @@ categories: [ "Functions" ]
 subCategories: [ "USB" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 = Keyboard
@@ -20,7 +19,7 @@ subCategories: [ "USB" ]
 The keyboard functions enable a 32u4 or SAMD micro based boards to send keystrokes to an attached computer through their micro's native USB port.
 [%hardbreaks]
 *Note: Not every possible ASCII character, particularly the non-printing ones, can be sent with the Keyboard library.* +
-The library supports the use of modifier keys. Modifier keys change the behavior of another key when pressed simultaneously. link:../keyboard/keyboardModifiers[See here] for additional information on supported keys and their use.
+The library supports the use of modifier keys. Modifier keys change the behavior of another key when pressed simultaneously. link:../keyboard/keyboardmodifiers[See here] for additional information on supported keys and their use.
 
 --
 // OVERVIEW SECTION ENDS
@@ -42,14 +41,14 @@ When using the Mouse or Keyboard library, it may be best to test your output fir
 
 [float]
 === Functions
-link:../keyboard/keyboardBegin[Keyboard.begin()] +
-link:../keyboard/keyboardEnd[Keyboard.end()] +
-link:../keyboard/keyboardPress[Keyboard.press()] +
-link:../keyboard/keyboardPrint[Keyboard.print()] +
-link:../keyboard/keyboardPrintln[Keyboard.println()] +
-link:../keyboard/keyboardRelease[Keyboard.release()] +
-link:../keyboard/keyboardReleaseAll[Keyboard.releaseAll()] +
-link:../keyboard/keyboardWrite[Keyboard.write()]
+link:../keyboard/keyboardbegin[Keyboard.begin()] +
+link:../keyboard/keyboardend[Keyboard.end()] +
+link:../keyboard/keyboardpress[Keyboard.press()] +
+link:../keyboard/keyboardprint[Keyboard.print()] +
+link:../keyboard/keyboardprintln[Keyboard.println()] +
+link:../keyboard/keyboardrelease[Keyboard.release()] +
+link:../keyboard/keyboardreleaseall[Keyboard.releaseAll()] +
+link:../keyboard/keyboardwrite[Keyboard.write()]
 
 '''
 
@@ -70,8 +69,6 @@ link:../keyboard/keyboardWrite[Keyboard.write()]
 * #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardLogout[KeyboardLogout]: Logs out the current user with key commands
 * #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardSerial[KeyboardSerial]: Reads a byte from the serial port, and sends back a keystroke.
 * #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardReprogram[KeyboardReprogram]: opens a new window in the Arduino IDE and reprograms the board with a simple blink program
-* #EXAMPLE# http://www.arduino.cc/en/Tutorial/ButtonMouseControl[ButtonMouseControl]: Control cursor movement with 5 pushbuttons.
-* #EXAMPLE# http://www.arduino.cc/en/Tutorial/JoystickMouseControl[JoystickMouseControl]: Controls a computer's cursor movement with a Joystick when a button is pressed.
 
 --
 // SEE ALSO SECTION ENDS

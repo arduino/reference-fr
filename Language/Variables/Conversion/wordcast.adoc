@@ -4,8 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Conversion" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 
@@ -18,7 +17,7 @@ subCategories: [ "Conversion" ]
 
 [float]
 === Description
-Converts a value to the link:../data-types/word[word] data type.
+Converts a value to the link:../../data-types/word[word] data type.
 [%hardbreaks]
 
 

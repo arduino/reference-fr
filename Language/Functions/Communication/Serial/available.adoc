@@ -1,8 +1,7 @@
 ---
 title: Serial.available()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 
@@ -114,7 +113,7 @@ void loop() {
 * #LANGUAGE# link:../print[print()] +
 * #LANGUAGE# link:../println[println()] +
 * #LANGUAGE# link:../write[write()] +
-* #LANGUAGE# link:../serialEvent[SerialEvent()] +
+* #LANGUAGE# link:../serialevent[SerialEvent()] +
 * #LANGUAGE# link:../../stream/streamavailable[Stream.available()]
 
 --

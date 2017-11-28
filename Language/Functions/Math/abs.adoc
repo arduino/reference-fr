@@ -4,8 +4,7 @@ categories: [ "Functions" ]
 subCategories: [ "Math" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 
@@ -18,7 +17,7 @@ subCategories: [ "Math" ]
 
 [float]
 === Description
-Calculates the absolute of two numbers.
+Calculates the absolute value of a number.
 [%hardbreaks]
 
 
