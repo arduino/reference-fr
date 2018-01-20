@@ -1,7 +1,7 @@
 ---
 title: constants
 categories: [ "Variables" ]
-subCategories: [ "Constants" ]
+subCategories: [ "Constantes" ]
 ---
 
 
