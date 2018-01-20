@@ -2,7 +2,7 @@
 title: "{}"
 title_expanded: curly braces
 categories: [ "Structure" ]
-subCategories: [ "Further Syntax" ]
+subCategories: [ "Autre Syntaxe" ]
 ---
 
 
