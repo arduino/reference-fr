@@ -1,5 +1,5 @@
 ---
-title: Keyboard
+title: Clavier
 categories: [ "Fonctions" ]
 subCategories: [ "USB" ]
 ---

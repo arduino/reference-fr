@@ -1,5 +1,5 @@
 ---
-title: stream
+title: flux
 categories: [ "Fonctions" ]
 subCategories: [ "Communication" ]
 ---
