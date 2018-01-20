@@ -1,7 +1,7 @@
 ---
 title: do...While
 categories: [ "Structure" ]
-subCategories: [ "Control Structure" ]
+subCategories: [ "Structure de Contrôle" ]
 ---
 
 
