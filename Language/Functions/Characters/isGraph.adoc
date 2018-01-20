@@ -1,6 +1,6 @@
 ﻿---
 title: "isGraph()"
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Caractères" ]
 ---
 

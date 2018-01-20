@@ -1,6 +1,6 @@
 ---
 title: max()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Mathématiques" ]
 ---
 

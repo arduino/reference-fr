@@ -1,6 +1,6 @@
 ---
 title: cos()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Trigonométrie" ]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: millis()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Temps" ]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: constrain()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Mathématiques" ]
 ---
 

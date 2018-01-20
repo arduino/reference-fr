@@ -1,6 +1,6 @@
 ---
 title: analogWriteResolution()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Famille Zero, Due & MKR" ]
 ---
 

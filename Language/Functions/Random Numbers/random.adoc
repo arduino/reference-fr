@@ -1,6 +1,6 @@
 ---
 title: random()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Nombres Aléatoires" ]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: setup()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Sketch" ]
 ---
 

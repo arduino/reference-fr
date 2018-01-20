@@ -1,6 +1,6 @@
 ---
 title: min()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Mathématiques" ]
 ---
 

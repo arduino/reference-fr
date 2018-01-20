@@ -1,6 +1,6 @@
 ﻿---
 title: "isAscii()"
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Caractères" ]
 ---
 

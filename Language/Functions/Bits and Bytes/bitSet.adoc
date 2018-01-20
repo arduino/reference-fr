@@ -1,6 +1,6 @@
 ---
 title: bitSet()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Bits et Octets" ]
 ---
 

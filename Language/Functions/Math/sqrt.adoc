@@ -1,6 +1,6 @@
 ---
 title: sqrt()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Mathématiques" ]
 ---
 

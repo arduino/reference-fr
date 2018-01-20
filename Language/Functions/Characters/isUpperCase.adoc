@@ -1,6 +1,6 @@
 ﻿---
 title: "isUpperCase()"
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Caractères" ]
 ---
 

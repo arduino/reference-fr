@@ -1,6 +1,6 @@
 ---
 title: highByte()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Bits et Octets" ]
 ---
 

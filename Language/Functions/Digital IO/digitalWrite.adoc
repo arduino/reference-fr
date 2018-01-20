@@ -1,6 +1,6 @@
 ---
 title: digitalWrite()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "E/S Numériques" ]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: attachInterrupt()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Interruptions Externes" ]
 ---
 

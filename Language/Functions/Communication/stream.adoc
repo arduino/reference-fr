@@ -1,6 +1,6 @@
 ---
 title: stream
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Communication" ]
 ---
 

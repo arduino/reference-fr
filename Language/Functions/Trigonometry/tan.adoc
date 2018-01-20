@@ -1,6 +1,6 @@
 ---
 title: tan()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Trigonométrie" ]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: interrupts()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Interruptions" ]
 ---
 

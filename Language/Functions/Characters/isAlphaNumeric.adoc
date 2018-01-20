@@ -1,6 +1,6 @@
 ---
 title: "isAlphaNumeric()"
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Caractères" ]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Mouse
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "USB" ]
 
 ---

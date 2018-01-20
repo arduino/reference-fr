@@ -1,6 +1,6 @@
 ---
 title: Parent of Entity Title
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Subcategory Name" ]
 ---
 // ARDUINO LANGUAGE REFERENCE TAG (above)   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄

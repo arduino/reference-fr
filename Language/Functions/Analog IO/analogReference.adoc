@@ -1,6 +1,6 @@
 ---
 title: analogReference()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "E/S Analogiques" ]
 ---
 

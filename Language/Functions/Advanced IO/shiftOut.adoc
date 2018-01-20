@@ -1,6 +1,6 @@
 ---
 title: shiftOut()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "E/S Avancées" ]
 ---
 

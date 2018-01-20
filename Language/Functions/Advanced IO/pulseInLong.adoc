@@ -1,6 +1,6 @@
 ---
 title: pulseInLong()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "E/S Avancées" ]
 ---
 

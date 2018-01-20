@@ -1,6 +1,6 @@
 ﻿---
 title: "isDigit()"
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Caractères" ]
 ---
 

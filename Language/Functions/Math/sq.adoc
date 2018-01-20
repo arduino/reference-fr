@@ -1,6 +1,6 @@
 ---
 title: sq()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Mathématiques" ]
 ---
 

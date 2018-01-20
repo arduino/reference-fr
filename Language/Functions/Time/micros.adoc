@@ -1,6 +1,6 @@
 ---
 title: micros()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Temps" ]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: randomSeed()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Nombres Aléatoires" ]
 ---
 

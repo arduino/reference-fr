@@ -1,6 +1,6 @@
 ---
 title: delay()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Temps" ]
 ---
 

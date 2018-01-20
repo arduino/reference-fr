@@ -1,6 +1,6 @@
 ---
 title: lowByte()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Bits et Octets" ]
 ---
 

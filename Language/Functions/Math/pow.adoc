@@ -1,6 +1,6 @@
 ---
 title: pow()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Mathématiques" ]
 ---
 

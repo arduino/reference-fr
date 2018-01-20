@@ -1,6 +1,6 @@
 ---
 title: detachInterrupt()
-categories: [ "Functions" ]
+categories: [ "Fonctions" ]
 subCategories: [ "Interruptions Externes" ]
 ---
 
