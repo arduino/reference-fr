@@ -1,7 +1,7 @@
 ---
 title: noInterrupts()
 categories: [ "Functions" ]
-subCategories: [ "Interrupts" ]
+subCategories: [ "Interruptions" ]
 ---
 
 
