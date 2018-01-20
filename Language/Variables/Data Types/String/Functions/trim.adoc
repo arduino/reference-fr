@@ -1,6 +1,6 @@
 ﻿---
 title: "trim()"
-categories: [ "Data Types" ]
+categories: [ "Types de Données" ]
 subCategories: [ "StringObject Function" ]
 ---
 

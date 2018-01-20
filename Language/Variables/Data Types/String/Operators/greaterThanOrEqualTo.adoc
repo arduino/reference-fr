@@ -1,7 +1,7 @@
 ﻿---
 title: ">="
 title_expanded: greater than or equal to
-categories: [ "Data Types" ]
+categories: [ "Types de Données" ]
 subCategories: [ "StringObject Operator" ]
 ---
 
