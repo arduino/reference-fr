@@ -2,7 +2,7 @@
 title: "!"
 title_expanded: logical not
 categories: [ "Structure" ]
-subCategories: [ "Boolean Operators" ]
+subCategories: [ "Opérateurs Booléens" ]
 ---
 
 
