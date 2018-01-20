@@ -1,5 +1,5 @@
 ---
-title: array
+title: tableau
 categories: [ "Variables" ]
 subCategories: [ "Types de Données" ]
 ---
