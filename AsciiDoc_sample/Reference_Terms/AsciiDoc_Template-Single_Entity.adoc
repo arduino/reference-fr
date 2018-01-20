@@ -8,7 +8,7 @@ subCategories: [ "Subcategory Name" ]
 // title will show up in the Index of all Reference terms
 // If the title is an operator write it out in words in title_expanded
 // categories: Pick between Structure, Variable or Function
-// The subcategory within the ones available in the index ("E/S Numériques", "Arithmetic Operators")
+// The subcategory within the ones available in the index ("E/S Numériques", "Opérateurs Arithmétiques")
 
 
 

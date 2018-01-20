@@ -2,7 +2,7 @@
 title: "*"
 title_expanded: "multiplication"
 categories: [ "Structure" ]
-subCategories: [ "Arithmetic Operators" ]
+subCategories: [ "Opérateurs Arithmétiques" ]
 ---
 
 
