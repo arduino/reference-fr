@@ -1,7 +1,7 @@
 ---
 title: bitClear()
 categories: [ "Functions" ]
-subCategories: [ "Bits and Bytes" ]
+subCategories: [ "Bits et Octets" ]
 ---
 
 
