@@ -1,7 +1,7 @@
 ﻿---
 title: "getBytes()"
 categories: [ "Types de Données" ]
-subCategories: [ "StringObject Function" ]
+subCategories: [ "Fonctions de l'objet String" ]
 ---
 
 
