@@ -2,7 +2,7 @@
 title: "[] "
 title_expanded: element access
 categories: [ "Types de Données" ]
-subCategories: [ "StringObject Operator" ]
+subCategories: [ "Opérateurs de l'objet String" ]
 ---
 
 

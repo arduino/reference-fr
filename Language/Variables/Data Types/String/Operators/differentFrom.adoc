@@ -2,7 +2,7 @@
 title: "!="
 title_expanded: different from
 categories: [ "Types de Données" ]
-subCategories: [ "StringObject Operator" ]
+subCategories: [ "Opérateurs de l'objet String" ]
 ---
 
 
