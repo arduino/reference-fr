@@ -5,7 +5,7 @@ subCategories: [ "Subcategory Name" ]
 ---
 // ARDUINO LANGUAGE REFERENCE TAG (above)   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 // title will show up in the Index of all Reference terms
-// categories: Pick between Structure, Variable or Function
+// categories: Pick between Structure, Variables or Fonctions
 // The subcategory within the ones available in the index ("E/S Numériques", "Opérateurs Arithmétiques")
 
 

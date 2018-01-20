@@ -7,7 +7,7 @@ subCategories: [ "Subcategory Name" ]
 // ARDUINO LANGUAGE REFERENCE TAGS (above)   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 // title will show up in the Index of all Reference terms
 // If the title is an operator write it out in words in title_expanded
-// categories: Pick between Structure, Variable or Function
+// categories: Pick between Structure, Variables or Fonctions
 // The subcategory within the ones available in the index ("E/S Numériques", "Opérateurs Arithmétiques")
 
 
@@ -108,7 +108,7 @@ image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="
 
 [float]
 === See also
-// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#), 
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
 // definitions: (please add the tag #DEFINITION#), and examples of Projects and Tutorials
 // examples: (please add the tag #EXAMPLE#)
 
@@ -117,7 +117,7 @@ image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="
 // Whenever you want to link to another Reference term, or more in general to a relative link,
 // use the syntax shown below. Please note that the file format is subsituted by  attribute.
 // Please note that you always need to replace spaces that you might find in folder/file names with %20
-// for language tag, items will be automatically generated for any other item of the same subcategory, 
+// for language tag, items will be automatically generated for any other item of the same subcategory,
 // no need to add links to other pages of the same subcategory
 // if you don't include this section, a minimal version with only the other pages of the same subcategory will be generated.
 * #LANGUAGE# link:../AsciiDoc_Template-Parent_Of_Entities[Parent Of Entities]
@@ -133,4 +133,3 @@ image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="
 
 --
 // SEE ALSO SECTION ENDS
-
