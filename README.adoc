@@ -1,43 +1,43 @@
-= Reference-en
+= Reference-fr
 
-Reference-en is the repo for the Language Reference documentation of the Arduino syntax in **English**.  
-All the Reference terms files are in AsciiDoc format.
+Reference-fr est le dépôt pour la documentation de la référence de langage de la syntaxe Arduino en **Français**.
+Tous les fichiers de référence sont au format AsciiDoc.
 
-Thank you for taking the time to contribute to Arduino content, this is really helpful to the whole Arduino Community. If you want to learn more on how to contribute to this project please check https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[this step by step tutorial].
+Merci d'avoir pris le temps de contribuer au contenu Arduino, c'est très utile à toute la communauté Arduino. Si vous voulez en savoir plus sur la manière de contribuer à ce projet, rendez-vous sur https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[ce tutoriel étape par étape].
 
-== Content Creation and Editing
-If you want to contribute new content, create a new file (with any text or code editor) and save it as .adoc.  
-Do not use parenthesis or any special character in the file name.  
-In https://raw.githubusercontent.com/arduino/reference-en/master/AsciiDoc_sample/AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary.adoc[`reference-en/AsciiDoc_sample/AsciiDoc_Dictionary`] you will find an overview on the AsciiDoc syntax. This includes Titles, Text, Links, Images, Tables, Code and various embeds (video, slideshow, audio and code). You can see it rendered https://www.arduino.cc/reference/en/asciidoc_sample/asciidoc_dictionary/asciidoc_template-dictionary/[here].
+== Création et édition de contenu
+Si vous voulez contribuer à du nouveau contenu, créez un nouveau fichier (avec n'importe quel éditeur de texte ou de code) et enregistrez-le en tant que .adoc.
+N'utilisez pas de parenthèses ou de caractères spéciaux dans le nom de fichier.
+Dans https://raw.githubusercontent.com/arduino/reference-fr/master/AsciiDoc_sample/AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary.adoc[`reference-fr/AsciiDoc_sample/AsciiDoc_Dictionary`] vous trouverez un aperçu de la syntaxe AsciiDoc. Cela inclut les Titres, Textes, Liens, Images, Tableaux, Code ainsi que divers élements intégrés (vidéos, diaporamas, audio et code). Vous pouvez le voir rendu https://www.arduino.cc/reference/en/asciidoc_sample/asciidoc_dictionary/asciidoc_template-dictionary/[ici].
 
-If you want to contribute to the Language Reference or edit existing content, you can find two templates in reference-en/AsciiDoc_sample/Reference_Terms:
+Si vous souhaitez contribuer à la documentation de référence du langue Arduino ou modifier le contenu existant, vous trouverez deux modèles dans reference-fr/AsciiDoc_sample/Reference_Terms:
 
-* Use https://raw.githubusercontent.com/arduino/reference-en/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (rendered https://www.arduino.cc/reference/en/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[here]) for terms such as link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
-* Use https://raw.githubusercontent.com/arduino/reference-en/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (rendered https://www.arduino.cc/reference/en/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[here]) for groups of functions such as link:http://arduino.cc/en/Reference/Serial[Serial].
+* Utilisez https://raw.githubusercontent.com/arduino/reference-fr/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (rendu https://www.arduino.cc/reference/en/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[ici]) pour des termes tels que link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
+* Utilisez https://raw.githubusercontent.com/arduino/reference-fr/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (rendu https://www.arduino.cc/reference/en/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[ici]) pour des groupes de fonctions tels que link:http://arduino.cc/en/Reference/Serial[Serial].
 
-Please note that every Reference file should include as least a Description, some Example Code, and links to other relevant infos (See Also section). 
+Notez que chaque fichier de référence doit inclure au moins une description, un exemple de code et des liens vers d'autres informations pertinentes (section Voir Également).
 
-If you need to add images to the Asciidoc please create a folder called attachments in the same directory as the Asciidoc file. Images can be saved in SVG and PNG format, max size 200KB.
+Si vous avez besoin d'ajouter des images à l'AsciiDoc, créez un dossier appelé attachments dans le même répertoire que le fichier AsciiDoc. Les images peuvent être sauvegardées au format SVG et PNG, taille maximale 200KB.
 
-== Contribute Content on Github
-If you are not familiar with Git you can contribute content directly on Github via their online interface. We put together a short Tutorial to show you how, https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[CHECK IT OUT!]
+== Contribuer au contenu sur Github
+Si vous n'êtes pas familier avec Git, vous pouvez contribuer du contenu directement sur Github via leur interface en ligne. Nous avons mis au point un petit tutoriel pour vous montrer comment, https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[REGARDEZ-LE!]
 
-link:https://help.github.com/articles/editing-files-in-another-user-s-repository/[You can also follow this guide] (written by the Github team) to learn how to edit an .adoc file and propose a file change to the Arduino team.  
-When suggesting a change, please follow the guidelines described in the Reference template files.
-
-
-== Submitting a pull request
-We are glad you want to contribute to the Arduino Reference: that's the best way to help the community.
-
-Your contribution is adding or modifying existing code or full descriptions, please always refer to an existing issue or open a new one before contributing. 
-
-Please note that your contribution to the Arduino Reference is licensed under a Creative Commons Attribution-Share Alike 3.0 License. see https://creativecommons.org/licenses/by-sa/3.0/
+link:https://help.github.com/articles/editing-files-in-another-user-s-repository/[Vous pouvez également suivre ce guide] (écrit par l'équipe Github) pour apprendre à modifier un fichier .adoc et proposer un changement de fichier à l'équipe Arduino.
+Lorsque vous suggérez une modification, suivez les instructions décrites dans les fichiers modèles de référence.
 
 
-=== Folder Structure
+== Soumettre une pull request
+Nous sommes heureux que vous souhaitiez contribuer à la Référence Arduino: c'est le meilleur moyen d'aider la communauté.
+
+Votre contribution consiste à ajouter ou modifier du code existant ou des descriptions complètes, veuillez toujours vous référer à un ticket (issue) existant ou en ouvrir un nouveau avant de contribuer.
+
+Veuillez noter que votre contribution à la Référence Arduino est sous licence Creative Commons Attribution-Share Alike 3.0 License. Voir https://creativecommons.org/licenses/by-sa/3.0/
+
+
+=== Structure du dossier
 [source]
 ----
-reference-en
+reference-fr
 ├─ AsciiDoc_sample
 │   ├── AsciiDoc_Dictionary
 │   │   ├── AsciiDoc_Template-Dictionary.adoc
@@ -55,4 +55,4 @@ reference-en
 
 ----
 
-Within the Language folder, the file tree follows the same structure as in the link:https://www.arduino.cc/reference/en[Arduino Reference webpage]
+Dans le dossier Language, l'arborescence de fichiers suit la même structure que dans link:https://www.arduino.cc/reference/en[la page web Référence de Langage]
