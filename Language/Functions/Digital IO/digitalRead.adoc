@@ -17,7 +17,7 @@ subCategories: [ "Digital I/O" ]
 
 [float]
 === Description
-Reads the value from a specified digital pin, either `HIGH` or `LOW`.
+Lit la valeur sur une broche digitale, soit  `HIGH` ou `LOW`. 
 [%hardbreaks]
 
 
@@ -28,11 +28,11 @@ Reads the value from a specified digital pin, either `HIGH` or `LOW`.
 
 [float]
 === Parameters
-`pin`: the number of the digital pin you want to read
+`pin`: Le numéro de la broche à lire.
 
 [float]
 === Returns
-`HIGH` or `LOW`
+`HIGH` ou `LOW`
 
 --
 // OVERVIEW SECTION ENDS
