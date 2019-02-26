@@ -2,7 +2,7 @@
 title: "#define"
 title_expanded: define
 categories: [ "Structure" ]
-subCategories: [ "Further Syntax" ]
+subCategories: [ "Autre Syntaxe" ]
 ---
 
 

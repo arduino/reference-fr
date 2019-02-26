@@ -2,7 +2,7 @@
 title: "<"
 title_expanded: less than
 categories: [ "Structure" ]
-subCategories: [ "Comparison Operators" ]
+subCategories: [ "Opérateurs de Comparaison" ]
 ---
 
 

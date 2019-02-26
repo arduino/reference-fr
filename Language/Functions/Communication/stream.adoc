@@ -1,6 +1,6 @@
 ---
-title: stream
-categories: [ "Functions" ]
+title: flux
+categories: [ "Fonctions" ]
 subCategories: [ "Communication" ]
 ---
 

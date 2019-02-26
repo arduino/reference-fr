@@ -1,7 +1,7 @@
 ---
 title: delay()
-categories: [ "Functions" ]
-subCategories: [ "Time" ]
+categories: [ "Fonctions" ]
+subCategories: [ "Temps" ]
 ---
 
 

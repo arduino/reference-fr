@@ -1,7 +1,7 @@
 ﻿---
 title: "isLowerCase()"
-categories: [ "Functions" ]
-subCategories: [ "Characters" ]
+categories: [ "Fonctions" ]
+subCategories: [ "Caractères" ]
 ---
 
 

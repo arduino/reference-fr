@@ -2,7 +2,7 @@
 title: "<<"
 title_expanded: bitshift left
 categories: [ "Structure" ]
-subCategories: [ "Bitwise Operators" ]
+subCategories: [ Opérateurs Bit à Bit" ]
 ---
 
 
@@ -120,4 +120,3 @@ void printOut1(int c) {
 
 --
 //SEE ALSO SECTION ENDS
-

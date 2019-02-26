@@ -1,7 +1,7 @@
 ---
 title: analogReadResolution()
-categories: [ "Functions" ]
-subCategories: [ "Zero, Due & MKR Family" ]
+categories: [ "Fonctions" ]
+subCategories: [ "Famille Zero, Due & MKR" ]
 ---
 
 

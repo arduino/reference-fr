@@ -1,7 +1,7 @@
 ﻿---
 title: "toCharArray()"
-categories: [ "Data Types" ]
-subCategories: [ "StringObject Function" ]
+categories: [ "Types de Données" ]
+subCategories: [ "Fonctions de l'objet String" ]
 ---
 
 

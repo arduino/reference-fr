@@ -1,7 +1,7 @@
 ---
-title: Integer Constants
+title: Constantes Entières
 categories: [ "Variables" ]
-subCategories: [ "Constants" ]
+subCategories: [ "Constantes" ]
 ---
 
 

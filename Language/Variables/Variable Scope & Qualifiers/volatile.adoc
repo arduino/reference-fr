@@ -1,7 +1,7 @@
 ---
 title: volatile
 categories: [ "Variables" ]
-subCategories: [ "Variable Scope & Qualifiers" ]
+subCategories: [ "Portée & Qualifieurs des Variables" ]
 ---
 
 

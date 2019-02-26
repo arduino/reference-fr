@@ -2,7 +2,7 @@
 title: "/="
 title_expanded: compound division
 categories: [ "Structure" ]
-subCategories: [ "Compound Operators" ]
+subCategories: [ "Opérateurs Composés" ]
 ---
 
 

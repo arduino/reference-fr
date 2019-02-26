@@ -1,6 +1,6 @@
 ---
-title: Keyboard
-categories: [ "Functions" ]
+title: Clavier
+categories: [ "Fonctions" ]
 subCategories: [ "USB" ]
 ---
 

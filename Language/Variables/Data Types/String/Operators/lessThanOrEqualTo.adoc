@@ -1,8 +1,8 @@
 ﻿---
 title: "<="
 title_expanded: less than or equal
-categories: [ "Data Types" ]
-subCategories: [ "StringObject Operator" ]
+categories: [ "Types de Données" ]
+subCategories: [ "Opérateurs de l'objet String" ]
 ---
 
 

@@ -2,7 +2,7 @@
 title: "//"
 title_expanded: single line comment
 categories: [ "Structure" ]
-subCategories: [ "Further Syntax" ]
+subCategories: [ "Autre Syntaxe" ]
 ---
 
 

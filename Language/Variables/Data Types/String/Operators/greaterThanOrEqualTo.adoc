@@ -1,8 +1,8 @@
 ---
 title: ">="
 title_expanded: greater than or equal to
-categories: [ "Data Types" ]
-subCategories: [ "StringObject Operator" ]
+categories: [ "Types de Données" ]
+subCategories: [ "Opérateurs de l'objet String" ]
 ---
 
 = >= Greater Than Or Equal To

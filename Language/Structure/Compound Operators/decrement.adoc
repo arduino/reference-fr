@@ -2,7 +2,7 @@
 title: "--"
 title_expanded: decrement
 categories: [ "Structure" ]
-subCategories: [ "Compound Operators" ]
+subCategories: [ "Opérateurs Composés" ]
 ---
 
 

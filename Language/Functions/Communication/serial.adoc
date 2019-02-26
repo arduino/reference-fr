@@ -1,6 +1,6 @@
 ---
-title: serial
-categories: [ "Functions" ]
+title: série
+categories: [ "Fonctions" ]
 subCategories: [ "Communication" ]
 ---
 

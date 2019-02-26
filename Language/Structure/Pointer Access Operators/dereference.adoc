@@ -2,7 +2,7 @@
 title: "*"
 title_expanded: dereference operator
 categories: [ "Structure" ]
-subCategories: [ "Pointer Access Operators" ]
+subCategories: [ "Opérateurs d'accès aux Pointeurs" ]
 ---
 
 

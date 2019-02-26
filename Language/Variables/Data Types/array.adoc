@@ -1,7 +1,7 @@
 ---
-title: array
+title: tableau
 categories: [ "Variables" ]
-subCategories: [ "Data Types" ]
+subCategories: [ "Types de Données" ]
 ---
 
 

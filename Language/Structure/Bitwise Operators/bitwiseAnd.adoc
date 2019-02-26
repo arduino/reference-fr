@@ -2,7 +2,7 @@
 title: "&"
 title_expanded: bitwise and
 categories: [ "Structure" ]
-subCategories: [ "Bitwise Operators" ]
+subCategories: [ Opérateurs Bit à Bit" ]
 ---
 
 

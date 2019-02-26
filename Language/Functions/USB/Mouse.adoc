@@ -1,6 +1,6 @@
 ---
-title: Mouse
-categories: [ "Functions" ]
+title: Souris
+categories: [ "Fonctions" ]
 subCategories: [ "USB" ]
 
 ---
@@ -68,4 +68,3 @@ link:../mouse/mouseispressed[Mouse.isPressed()]
 
 --
 // SEE ALSO SECTION ENDS
-

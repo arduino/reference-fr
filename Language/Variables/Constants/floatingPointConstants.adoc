@@ -1,7 +1,7 @@
 ---
-title: Floating Point Constants
+title: Constantes À Virgule Flottante
 categories: [ "Variables" ]
-subCategories: [ "Constants" ]
+subCategories: [ "Constantes" ]
 ---
 
 

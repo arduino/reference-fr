@@ -2,7 +2,7 @@
 title: "&="
 title_expanded: compound bitwise and
 categories: [ "Structure" ]
-subCategories: [ "Compound Operators" ]
+subCategories: [ "Opérateurs Composés" ]
 ---
 
 
