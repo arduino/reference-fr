@@ -32,7 +32,7 @@ subCategories: [ "Boolean Operators" ]
 
 [float]
 === Example Code
-This operator can be used inside the condition of an link:../../control-structure/if/[if] statement.
+This operator can be used inside the condition of an link:../../control-structure/if[if] statement.
 
 [source,arduino]
 ----
@@ -44,7 +44,7 @@ if (!x) { // if x is not true
 It can be used to invert the boolean value.
 [source,arduino]
 ----
-x = !y;   // the inverted value of y is stored in x
+x = !y; // the inverted value of y is stored in x
 ----
 
 

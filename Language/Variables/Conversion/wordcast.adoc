@@ -24,18 +24,20 @@ Converts a value to the link:../../data-types/word[word] data type.
 [float]
 === Syntax
 `word(x)` +
-`word(h, l)`
+`word(h, l)` +
+`(word)x` (C-style type conversion)
+
 
 [float]
 === Parameters
-`x`: a value of any type
+`x`: a value. Allowed data types: any type. +
+`h`: the high-order (leftmost) byte of the word. +
+`l`: the low-order (rightmost) byte of the word.
 
-`h`: the high-order (leftmost) byte of the word
 
-`l`: the low-order (rightmost) byte of the word
 [float]
 === Returns
-`word`
+Data type: `word`.
 
 --
 // OVERVIEW SECTION ENDS
