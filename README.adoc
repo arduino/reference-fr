@@ -53,7 +53,7 @@ reference-fr
 
 ----
 
-Dans le dossier Language, l'arborescence de fichiers suit la même structure que dans link:https://www.arduino.cc/reference/en[la page web Référence de Langage]
+Dans le dossier Language, l'arborescence de fichiers suit la même structure que dans link:https://www.arduino.cc/reference/fr[la page web Référence de Langage]
 
 === License
 
