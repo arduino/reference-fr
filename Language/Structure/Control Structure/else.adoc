@@ -4,10 +4,6 @@ categories: [ "Structure" ]
 subCategories: [ "Control Structure" ]
 ---
 
-
-
-
-
 = if...else
 
 
@@ -29,19 +25,17 @@ Note that an `else if` block may be used with or without a terminating `else` bl
 === Syntax
 [source,arduino]
 ----
-if (condition1)
-{
+if (condition1) {
   // do Thing A
 }
-else if (condition2)
-{
+else if (condition2) {
   // do Thing B
 }
-else
-{
+else {
   // do Thing C
 }
 ----
+
 --
 // OVERVIEW SECTION ENDS
 
@@ -55,17 +49,14 @@ else
 Below is an extract from a code for temperature sensor system
 [source,arduino]
 ----
-if (temperature >= 70)
-{
-  //Danger! Shut down the system
+if (temperature >= 70) {
+  // Danger! Shut down the system.
 }
-else if (temperature >= 60 && temperature < 70)
-{
-  //Warning! User attention required
+else if (temperature >= 60) { // 60 <= temperature < 70
+  // Warning! User attention required.
 }
-else
-{
-  //Safe! Continue usual tasks...
+else { // temperature < 60
+  // Safe! Continue usual tasks.
 }
 ----
 

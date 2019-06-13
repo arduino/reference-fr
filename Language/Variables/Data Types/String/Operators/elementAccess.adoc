@@ -1,4 +1,4 @@
-﻿---
+---
 title: "[] "
 title_expanded: element access
 categories: [ "Data Types" ]
@@ -18,29 +18,26 @@ subCategories: [ "StringObject Operator" ]
 
 [float]
 === Description
-Allows you access to the individual characters of a string.
+Allows you access to the individual characters of a String.
 
 [%hardbreaks]
 
 
 [float]
 === Syntax
-[source,arduino]
-----
-char thisChar = string1[n]
-----
+`char thisChar = myString1[n]`
+
 
 [float]
 === Parameters
-`char thisChar` - a character variable
+`thisChar`: Allowed data types: char. +
+`myString1`: Allowed data types: String. +
+`n`: a numeric variable.
 
-`string1` - a string variable
-
-`int n` - a numeric variable
 
 [float]
 === Returns
-The nth char of the string. Same as charAt().
+The nth char of the String. Same as charAt().
 
 --
 
@@ -59,6 +56,6 @@ The nth char of the string. Same as charAt().
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

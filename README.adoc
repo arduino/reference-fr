@@ -31,8 +31,6 @@ Nous sommes heureux que vous souhaitiez contribuer à la Référence Arduino: c'
 
 Votre contribution consiste à ajouter ou modifier du code existant ou des descriptions complètes, veuillez toujours vous référer à un ticket (issue) existant ou en ouvrir un nouveau avant de contribuer.
 
-Veuillez noter que votre contribution à la Référence Arduino est sous licence Creative Commons Attribution-Share Alike 3.0 License. Voir https://creativecommons.org/licenses/by-sa/3.0/
-
 
 === Structure du dossier
 [source]
@@ -56,3 +54,9 @@ reference-fr
 ----
 
 Dans le dossier Language, l'arborescence de fichiers suit la même structure que dans link:https://www.arduino.cc/reference/en[la page web Référence de Langage]
+
+=== License
+
+Veuillez noter que votre contribution à la Référence Arduino est sous licence Creative Commons Attribution-Share Alike 3.0 License. Voir https://creativecommons.org/licenses/by-sa/3.0/
+
+image:https://i.creativecommons.org/l/by-sa/3.0/88x31.png[Creative Commons License, title="Creative Commons License"] This work is licensed under a link:https://creativecommons.org/licenses/by-sa/3.0/deed.fr[Creative Commons Attribution-ShareAlike 3.0 Unported License].
