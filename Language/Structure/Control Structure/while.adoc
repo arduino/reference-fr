@@ -18,10 +18,10 @@ subCategories: [ "Control Structure" ]
 [float]
 === Description
 [%hardbreaks]
-A `while` loop will loop continuously, and infinitely, until the expression inside the parenthesis, () becomes false. Something must change the tested variable, or the while loop will never exit. This could be in your code, such as an incremented variable, or an external condition, such as testing a sensor.
+Une structure `while` boucle de manière continue et infinie jusqu'à ce que l'expression entre parenthèses, () devienne fausse. Quelque chose dans la boucle doit modifier la variable testée, sinon la boucle while ne s'arrêtera jamais. Cela peut être dans votre code, par exemple une variable incrémentée, ou une condition externe, telle que le test d'un capteur.
 
 [float]
-=== Syntax
+=== Syntaxe
 [source,arduino]
 ----
 while (condition) {
@@ -31,8 +31,8 @@ while (condition) {
 
 
 [float]
-=== Parameters
-`condition`: a boolean expression that evaluates to `true` or `false`.
+=== Paramètres
+`condition`: une expression booléenn qui sera évaluée à `true` ou `false`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -45,7 +45,7 @@ while (condition) {
 --
 
 [float]
-=== Example Code
+=== Exemple de code
 
 [source,arduino]
 ----
@@ -66,12 +66,12 @@ while (var < 200) {
 --
 
 [float]
-=== See also
+=== Voir également
 
 [role="language"]
 
 [role="example"]
-* #EXAMPLE# https://arduino.cc/en/Tutorial/WhileLoop[While Loop^]
+* #EXEMPLE# https://arduino.cc/en/Tutorial/WhileLoop[While Loop^]
 
 --
 // SEE ALSO SECTION ENDS
