@@ -4,7 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Constants" ]
 ---
 
-= Constants
+= Constantes
 
 
 // OVERVIEW SECTION STARTS
@@ -13,98 +13,98 @@ subCategories: [ "Constants" ]
 
 [float]
 == Description
-Constants are predefined expressions in the Arduino language. They are used to make the programs easier to read. We classify constants in groups:
+Les constantes sont des expressions prédéfinies du langage Arduino. Elles sont utilisées pour faciliter la lecture des programmes. On classe les constantes en groupes : 
 
 [float]
-== Defining Logical Levels: true and false (Boolean Constants)
-There are two constants used to represent truth and falsity in the Arduino language: `true`, and `false`.
+== Définition des Niveaux Logiques : true et false (Constantes Booléennes)
+Il existe deux constantes utilisées pour représenter les niveaux logiques haut et bas en langage Arduino : `true`, et `false`.
 
 [float]
 === false
-`false` is the easier of the two to define. false is defined as 0 (zero).
+`false` est la plus simple des deux à définir : c'est le niveau 0 (zéro).
 [%hardbreaks]
 
 [float]
 === true
-`true` is often said to be defined as 1, which is correct, but true has a wider definition. Any integer which is non-zero is true, in a Boolean sense. So -1, 2 and -200 are all defined as true, too, in a Boolean sense.
+On dit souvent que `true` est défini comme étant 1, ce qui est correct, mais true a une définition plus large. Tout entier non-nul est true, au sens de la logique Booléenne. De ce fait, -1, 2, et -200 sont tous définis comme true, au sens booléen.
 [%hardbreaks]
 
-Note that the `true` and `false` constants are typed in lowercase unlike `HIGH`, `LOW`, `INPUT`, and `OUTPUT`.
+Note : les constantes `true` et `false` sont écrites en miniscules, contrairement à `HIGH`, `LOW`, `INPUT`, et `OUTPUT`.
 [%hardbreaks]
 
 [float]
-== Defining Pin Levels: HIGH and LOW
-When reading or writing to a digital pin there are only two possible values a pin can take/be-set-to: `HIGH` and `LOW`.
+== Définition de niveaux de pins : HIGH et LOW
+Lors de la lecture ou de l'écriture d'un pin numérique, seules deux valeurs sont possibles : `HIGH` et `LOW`.
 
 [float]
 === HIGH
-The meaning of `HIGH` (in reference to a pin) is somewhat different depending on whether a pin is set to an `INPUT` or `OUTPUT`. When a pin is configured as an `INPUT` with link:../../../functions/digital-io/pinmode[pinMode()], and read with link:../../../functions/digital-io/digitalread[digitalRead()], the Arduino (ATmega) will report `HIGH` if:
+Le sens de `HIGH` (en parlant d'un pin) est différent si le pin est configuré comme `INPUT` (entrée) ou `OUTPUT` (sortie). Lorsqu'un pin est configuré comme `INPUT` avec link:../../../functions/digital-io/pinmode[pinMode()], ou lu avec link:../../../functions/digital-io/digitalRead[digitalRead()], l'Arduino (ATMega) va renvoyer `HIGH` si :
 
-  - a voltage greater than 3.0V is present at the pin (5V boards)
-  - a voltage greater than 2.0V volts is present at the pin (3.3V boards)
+  - une tension supérieure à 3.0V est présente sur le pin (pour les cartes fonctionnant en 5V)
+  - une tension supérieure à 2.0V est présente sur le pin (pour les cartes fonctionnant en 3.3V)
 [%hardbreaks]
 
-A pin may also be configured as an INPUT with `pinMode()`, and subsequently made HIGH with link:../../../functions/digital-io/digitalwrite[digitalWrite()]. This will enable the internal 20K pullup resistors, which will _pull up_ the input pin to a `HIGH` reading unless it is pulled `LOW` by external circuitry. This can done alternatively by passing `INPUT_PULLUP` as argument to the `pinMode()` funtion, as explained in more detail in the section "Defining Digital Pins modes: INPUT, INPUT_PULLUP, and OUTPUT" further below.
+Un pin peut aussi être configuré comme INPUT avec `pinMode()`, et être forcé à l'état HIGH avec link:../../../functions/digital-io/digitalwrite[digitalWrite()]. Cela aura pour effet d'activer la résistance interne de pullup de 20K, ce qui va forcer le pin d'entrée à un état `HIGH`, à moins qu'il ne soit explicitement passé à l'état `LOW` par le circuit externe. Alternativement, cela peut être fait en passant l'argument `INPUT_PULLUP` à la fonction `pinMode()`, comme expliqué ci-dessous plus en détail, dans la section "Définition des modes des pins numériques : INPUT, INPUT_PULLUP, et OUTPUT".
 [%hardbreaks]
 
-When a pin is configured to OUTPUT with `pinMode()`, and set to `HIGH` with `digitalWrite()`, the pin is at:
+Lorsqu'un pin est configuré comme OUTPUT avec `pinMode()`, et forcé à `HIGH` avec `digitalWrite()`, la tension du pin est :
 
-  - 5 volts (5V boards)
-  - 3.3 volts (3.3V boards)
-
-In this state it can source current, e.g. light an LED that is connected through a series resistor to ground.
+  - 5 volts (pour les cartes fonctionnants en 5V)
+  - 3.3 volts (pour les cartes fonctionnants en 3.3V)
+  
+Dans cet état, il peut fournir du courant, par exemple, pour allumer une LED qui serait connectée à la masse, via une résistance en série.
 [%hardbreaks]
 
 [float]
 === LOW
-The meaning of `LOW` also has a different meaning depending on whether a pin is set to `INPUT` or `OUTPUT`. When a pin is configured as an `INPUT` with `pinMode()`, and read with `digitalRead()`, the Arduino (ATmega) will report LOW if:
+Le sens de `LOW` est aussi différent selon que le pin est configuré comme `INPUT` ou `OUTPUT`. Lorsqu'un pin est configuré comme `INPUT` avec `pinMode()`, et lu avec `digitalRead()`, l'Arduino (ATMega) va renvoyer LOW si : 
 
-  - a voltage less than 1.5V is present at the pin (5V boards)
-  - a voltage less than 1.0V (Approx) is present at the pin (3.3V boards)
-
-When a pin is configured to `OUTPUT` with `pinMode()`, and set to `LOW` with `digitalWrite()`, the pin is at 0 volts (both 5V and 3.3V boards). In this state it can sink current, e.g. light an LED that is connected through a series resistor to +5 volts (or +3.3 volts).
+  - une tension inférieure à 1.5V est présente sur le pin (pour les cartes fonctionnants en 5V)
+  - une tension ingérieure à 1.0V (approximativement) est présente sur le pin (pour les cartes fonctionnants en 3.3V)
+  
+Lorsqu'un pin est configuré comme `OUTPUT` avec `pinMode()`, et forcé à `LOW` avec `digitalWrite()`, la tension sur le pin sera de 0 volts (pour les cartes fonctionnant en 5V et en 3.3V). Dans cet état, le pin peut recevoir du courant, par exemple, pour allumer une LED qui serait connectée au +5V (ou +3.3V) via une résistance en série.
 [%hardbreaks]
 
 [float]
-== Defining Digital Pins modes: INPUT, INPUT_PULLUP, and OUTPUT
-Digital pins can be used as `INPUT`, `INPUT_PULLUP`, or `OUTPUT`. Changing a pin with `pinMode()` changes the electrical behavior of the pin.
+== Définition des modes des pins numériques : INPUT, INPUT_PULLUP, et OUTPUT
+Les pins numériques peuvent être utilisés comme `INPUT`, `INPUT_PULLUP`, ou `OUTPUT`. Les changement de modes avec `pinMode()` changent le comportement électrique d'un pin.
 
 [float]
-=== Pins Configured as INPUT
-Arduino (ATmega) pins configured as `INPUT` with `pinMode()` are said to be in a _high-impedance_ state. Pins configured as `INPUT` make extremely small demands on the circuit that they are sampling, equivalent to a series resistor of 100 Megohms in front of the pin. This makes them useful for reading a sensor.
+=== Pins configurés comme INPUT
+On dit que les pins de l'Arduino (ATMega) configurés comme `INPUT` (entrée) avec `pinMode()` sont dans un état de _haute impédance_. Les pins configurés comme `INPUT` ne tirent que très peu de courant ; ils sont équivalents à une résistance de 100 Megaohms devant le pin. Cela les rend utiles pour la lecture d'un capteur.
 [%hardbreaks]
 
-If you have your pin configured as an `INPUT`, and are reading a switch, when the switch is in the open state the input pin will be "floating", resulting in unpredictable results. In order to assure a proper reading when the switch is open, a pull-up or pull-down resistor must be used. The purpose of this resistor is to pull the pin to a known state when the switch is open. A 10 K ohm resistor is usually chosen, as it is a low enough value to reliably prevent a floating input, and at the same time a high enough value to not not draw too much current when the switch is closed. See the http://arduino.cc/en/Tutorial/DigitalReadSerial[Digital Read Serial^] tutorial for more information.
+Si un pin est configuré en `INPUT`, et connecté à un interrupteur, alors lorsque l'interrupteur est ouvert, le pin est dit "flottant", ce qui a pour conséquence une valeur lue imprédictible. Dans le but d'assurer une mesure correcte lorsque l'interrupteur est ouvert, une résistance de pull-up ou de pull-down doit être utilisée. L'objectif de cette résistance est d'assurer un état stable est prédictible lorsque l'interrupteur est ouvert. On utilise souvent une résistance de 10 K Ohm, suffisamment faible pour éviter l'état flottant du pin, mais suffisamment grande pour ne pas consommer trop de courant. Voir le tutoriel http://arduino.cc/en/Tutorial/DigitalReadSerial[Digital Read Serial^] pour plus d'informations.
 [%hardbreaks]
 
-If a pull-down resistor is used, the input pin will be `LOW` when the switch is open and `HIGH` when the switch is closed.
+Lorsqu'une résistance de pull-down est utilisée, alors le pin d'entrée sera à `LOW` quand l'interrupteur est ouvert, et à `HIGH` quand l'interrupteur est fermé.
 [%hardbreaks]
 
-If a pull-up resistor is used, the input pin will be `HIGH` when the switch is open and `LOW` when the switch is closed.
-[%hardbreaks]
-
-[float]
-=== Pins Configured as INPUT_PULLUP
-The ATmega microcontroller on the Arduino has internal pull-up resistors (resistors that connect to power internally) that you can access. If you prefer to use these instead of external pull-up resistors, you can use the `INPUT_PULLUP` argument in `pinMode()`.
-[%hardbreaks]
-
-See the http://arduino.cc/en/Tutorial/InputPullupSerial[Input Pullup Serial^] tutorial for an example of this in use.
-[%hardbreaks]
-
-Pins configured as inputs with either `INPUT` or `INPUT_PULLUP` can be damaged or destroyed if they are connected to voltages below ground (negative voltages) or above the positive power rail (5V or 3V).
+Lorsqu'une résistance de pull-up est utilisée, alors le pin d'entrée sera à `HIGH` quand l'interrupteur est ouvert, et à `LOW` quand l'interrupteur est fermé.
 [%hardbreaks]
 
 [float]
-=== Pins Configured as OUTPUT
-Pins configured as `OUTPUT` with `pinMode()` are said to be in a _low-impedance_ state. This means that they can provide a substantial amount of current to other circuits. ATmega pins can source (provide current) or sink (absorb current) up to 40 mA (milliamps) of current to other devices/circuits. This makes them useful for powering LEDs because LEDs typically use less than 40 mA. Loads greater than 40 mA (e.g. motors) will require a transistor or other interface circuitry.
+=== Pins configuré comme INPUT_PULLUP
+Le micro-contrôleur ATMega de l'Arduino a des résistances internes de pull-up (c'est-à-dire, connectées de manière interne au 5V ou 3.3V). Si vous préférez utiliser ces dernières, plutôt que des résistances externes de pull-up, alors vous pouvez passer l'argument `INPUT_PULLUP` avec la fonction `pinMode()`.
 [%hardbreaks]
 
-Pins configured as outputs can be damaged or destroyed if they are connected to either the ground or positive power rails.
+Voir le tutoriel the http://arduino.cc/en/Tutorial/InputPullupSerial[Input Pullup Serial^] pour étudier un exemple d'utilisation.
+[%hardbreaks]
+
+Les pins configurés comme entrées (`INPUT` ou `INPUT_PULLUP`) peuvent être endommagés s'ils sont connectés à des tensions inférieures à la masse (tensions négatives) ou supérieures à la tension d'alimentation (5V ou 3.3V).
 [%hardbreaks]
 
 [float]
-== Defining built-ins: LED_BUILTIN
-Most Arduino boards have a pin connected to an on-board LED in series with a resistor. The constant `LED_BUILTIN` is the number of the pin to which the on-board LED is connected. Most boards have this LED connected to digital pin 13.
+=== Pins configurés comme OUTPUT
+On dit que les pins configurés comme `OUTPUT` avec `pinMode()` sont dans un état de _basse impédance_. Cela veut dire qu'ils peuvent fournir une certaine quantité de courant à d'autres circuits. Les pins des ATMega peuvent fournir ou recevoir jusqu'à 40 mA (milli-ampère). Pour des charges supérieures à 40 mA (comme des moteurs), un transistor ou une autre interface de puissance sera nécessaire.
+[%hardbreaks]
+
+Les pins configurés comme sorties peuvent être endommagés s'ils sont connectée à la masse ou une tension forcée positive.
+[%hardbreaks]
+
+[float]
+== Définition : LED_BUILTIN
+La plupart des cartes Arduino ont un pin connecté à une LED intégrée, avec une résistance en série. La constante `LED_BUILTIN` est le numéro du pin auquel la LED est connectée. Pour la majorité des cartes, cette LED est branchée sur le pin 13.
 
 --
 // OVERVIEW SECTION ENDS
@@ -123,7 +123,7 @@ Most Arduino boards have a pin connected to an on-board LED in series with a res
 --
 
 [float]
-=== See also
+=== Voir aussi
 
 [role="language"]
 
